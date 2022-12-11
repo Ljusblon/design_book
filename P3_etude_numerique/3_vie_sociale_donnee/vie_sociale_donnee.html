@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>I- Le temps</title>
+
+    <!-- Pour obtenir la feuille de style en css -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn.glitch.com/65acc92b-f0fb-444f-a729-59a367efbd6d%2FLogoCerveau.png?v=1607252943798"
+      sizes="32x32"
+    />
+
+  </head>
+  <body>
+   
+    <section class="partie" id="partie_3">
+      <h2>La vie sociale des données : objet Base de données DPE </h2>
+
+      <p id="#parag">
+        Aujourd’hui, les modes de production et de consommation de l’énergie sont en train de 
+        faire leur révolution, plus ou moins contrainte, afin de préserver les ressources et 
+        d’anticiper la disparition programmée des énergies fossiles. Parmi les principaux secteurs 
+        concernés se trouve le secteur du bâtiment, en tant que premier consommateur d’énergie 
+        en France avec 45 % de la consommation, soit près de 70 Mtep et deuxième émetteur de CO2, 
+        avec 23 % des émissions nationale. Un des principaux leviers pour faire face à ces 
+        contraintes et aux différents engagements des gouvernements successifs passe par 
+        la rénovation énergétique et thermique du parc immobilier, afin de réduire les 
+        consommations liées à son exploitation. La rénovation énergétique désigne l’ensemble 
+        des travaux réalisés sur un bâtiment en vue de diminuer la consommation énergétique 
+        du bâtiment et/ou de ses occupants. C’est à l’aune de ces considérations que notre 
+        attention se porte sur la base de données « DPE Logements » de l’ADEME, dont les données 
+        sont antérieures à juillet 2021.
+      </p>
+
+        <img
+            title="Diagnostic de performance énergétique pour les logements - Classe énergétique."
+            src="/Assets/A_P3_etude_numerique/3_vie_sociale_donee/1_dpe.png"
+        />
+
+      <p id="#titre">
+        Titre : Diagnostic de performance énergétique pour les logements - Classe énergétique. <br />
+        Source : ADEME, DPE Logements (avant juillet 2021), Paris, 2021, [En ligne].
+      </p>
+
+      <p id="#parag">
+        Cette carte présente les DPE des logements en fonction de leur classe énergétique. 
+        Les diagnostics de performance énergétique sont transmis à l’ADEME à des fins d'études 
+        statistiques, d'évaluation et d'amélioration méthodologique en vertu de l’article 
+        L134-4-2 du code de la construction et de l’habitation. <br />
+
+        Selon l’ADEME, le diagnostic de performance énergétique renseigne sur la performance 
+        énergétique d’un logement ou d’un bâtiment, en évaluant sa consommation d’énergie et 
+        son impact en termes d’émissions de gaz à effet de serre. Il décrit le bâtiment ou le 
+        logement, ainsi que ses équipements de chauffage, de production d’eau chaude sanitaire, 
+        de refroidissement et de ventilation. Il indique, suivant les cas, soit la quantité 
+        d’énergie effectivement consommée sur la base de factures, soit la consommation d’énergie 
+        estimée pour une utilisation standardisée du bâtiment. Le DPE est un diagnostic réalisé 
+        en France sur les biens immobiliers. Il doit être présenté lors des transactions 
+        immobilières dont les ventes, locations et constructions neuves des logements et des 
+        bâtiments tertiaires tels que les bureaux, hôtel ou établissements publics. 
+        Il vise à informer le propriétaire et le locataire de la consommation d'énergie du 
+        logement ou du bâtiment tertiaire sur son chauffage, son refroidissement, sa production 
+        d'eau chaude sanitaire (ECS). L’ADEME rappelle que le DPE de certains bâtiments publics 
+        doit également être affiché dans le hall d’accueil du bâtiment. L'ADEME est également 
+        l'organisme chargé de collecter les DPE depuis 2013. Il convient d’ajouter que la durée 
+        de validité du DPE est de dix ans. <br />
+        La lecture du DPE est facilitée par deux étiquettes à sept classes. L’échelle est cotée de A, 
+        pour les logements les plus sobres, à G, pour les plus énergivores. La moyenne du parc 
+        immobilier français se situe autour de 240 kWhEP/m2.an, soit la classe E.
+
+      </p>
+
+      <img
+            title="Illustration à venir."
+            src=""
+        />
+
+      <p id="#parag">
+        Nous tenions également à exploiter plus en amont la base de données. Compte tenu des millions de données disponibles, 
+        plus de 5 millions de lignes, qui compliquent largement l’exploitation et l’analyse des données, nous nous sommes concentrés 
+        sur Paris, étant l’une des villes les plus documentée dans la base DPE Logements. Eu égards aux nombreuses données, 
+        nous avons dû réaliser une carte par classe énergétique pour distinguer les différents DPE et pointer d’éventuels contrastes. 
+        Nous avons réalisé les trois cartes suivantes avec le logiciel SIG open source Qgis. <br />
+        La démarche fondamentale de cette étude de cas consiste à rechercher des contrastes entre les classes énergétiques et/ou entre 
+        les arrondissements de la ville. 
+      </p>
+
+
+      <p id="#parag">
+        La classe A ne présente pas de réelles disparités, si ce n’est que les derniers logements construits dans le nord et le 
+        nord-ouest de Paris présentent quelques points d’exception où les logements sont bien isolés, eu égard à leur date de construction. <br />
+        À l’instar de la classe précédente, la classe B ne présente pas de réel contraste non plus et les données disponibles demeurent trop 
+        éparsent pour conclure à de réelles disparités entre les arrondissements. <br />
+        À l’inverse de la classe précédente, la classe C dispose de nombreuses données, permettant de constater un premier contraste entre 
+        les 17e, 18e, 9e, 10e et 11e arrondissements par opposition aux 5e, 6e, et 7e. Reste à établir, si les trois derniers 
+        arrondissements présentent de meilleurs diagnostics. Question à laquelle nous pouvons d’emblée répondre par la 
+        négative au regard des cartes suivantes. Il convient d'ajouter que ramenés au nombre de logements, deux arrondissements 
+        se distinguent : le 13e arrondissement qui présente les meilleurs DPE de la capitale, tandis que le 6e présente les moins bons.
+      </p>
+
+      <img
+            title="Carte présentant les logements ayant un DPE de classe C."
+            src=""
+        />
+
+      <p id="#parag">
+        À l’image de ce que nous avons pu souligner précédemment pour l’ensemble du territoire français métropolitain, 
+        la majorité des DPE sont de classes D et E, ne marquant pas de différences majeures entre les arrondissements de Paris, 
+        si ce n’est peut-être un léger contraste entre les précédents arrondissements cités. La majorité du parc immobilier de 
+        la capitale se trouve entre ces deux classes, certains travaux allant jusqu’à considérer qu’elles représentent 70 % du parc.
+      </p>
+
+      <img
+            title="Carte présentant les logements ayant un DPE de classe E."
+            src=""
+        />
+      
+
+      <p id="#parag">
+      
+      </p>
+
+
+      <p id="#parag">
+      
+      </p>
+
+
+      <p id="#parag">
+      
+      </p>
+
+
+
+
+
+
+
+    </section>
+
+    <br />
+    <br />
+
+    <footer>
+      
+    </footer>
+  </body>
+</html>
+

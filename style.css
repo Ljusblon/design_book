@@ -1,0 +1,18 @@
+/* CSS files add styling rules to your content */
+body {
+    font-family: liberation, sans-serif;
+    margin: 2em;
+    line-height: 170%;
+  }
+  
+  h1 {
+    font-family: liberation sans-serif;
+    font-style: italic;
+    color: #001E8B;
+  }
+  
+  h2 {
+    font-family: times;
+    color: #2B4ECD;
+    text-decoration: none;
+  }
